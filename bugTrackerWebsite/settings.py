@@ -28,8 +28,8 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['web-production-999c.up.railway.app', '127.0.0.1']
-CSRF_TRUSTED_ORIGINS = ['https://web-production-999c.up.railway.app']
+ALLOWED_HOSTS = ['web-production-6abe.up.railway.app', '127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['https://web-production-6abe.up.railway.app']
 
 # Application definition
 
